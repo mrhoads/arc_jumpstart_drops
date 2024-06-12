@@ -9,7 +9,7 @@
         "Link": "https://www.linkedin.com/in/mike-rhoads/"
       }
     ],
-    "Source": "https://github.com/Azure/arc_jumpstart_drops/tree/main/workbooks/connect_an_existing_kubernetes_cluster_to_azure_arc",
+    "Source": "https://github.com/Azure/arc_jumpstart_drops/tree/main/tutorial_guide/connect_an_existing_kubernetes_cluster_to_azure_arc",
     "Type": "tutorial_guide",
     "Difficulty": "Beginner",
     "ProgrammingLanguage": [
