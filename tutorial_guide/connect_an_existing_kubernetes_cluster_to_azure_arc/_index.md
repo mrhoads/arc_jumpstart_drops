@@ -8,11 +8,8 @@ The following Jumpstart Drop will guide you on how to connect an existing Kubern
 
 * (Optional) To simplify work against multiple k8s contexts, consider using [kubectx](https://github.com/ahmetb/kubectx).
 
-* [Install or update Azure CLI to version 2.53.0 and above](https://learn.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest). Use the below command to check your current installed version.
+* [Install or update the latest Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest). Use the below command to check your current installed version.
 
-  ```shell
-  az --version
-  ```
 * Have an identiy (either a user or service principal) that can log in to the Azure CLI and, at a minimum, has the [Kubernetes Cluster - Azure Arc Onboarding](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/containers#kubernetes-cluster---azure-arc-onboarding) role. 
 
 * If using the Kubernetes Cluster - Azure Arc Onboarding role with a service principal, you must already have a resource group in which to onboard the cluster.
