@@ -14,7 +14,7 @@ The following Jumpstart Drop will guide you on how to connect an existing Kubern
 
 * If using the Kubernetes Cluster - Azure Arc Onboarding role with a service principal, you must already have a resource group in which to onboard the cluster.
 
-* [Enable subscription with](https://learn.microsoft.com/azure/azure-resource-manager/management/resource-providers-and-types#register-resource-provider) the two resource providers for Azure Arc-enabled Kubernetes. Registration is an asynchronous process, and registration may take approximately 10 minutes.
+* [Enable subscription with](https://learn.microsoft.com/azure/azure-resource-manager/management/resource-providers-and-types#register-resource-provider) the three resource providers for Azure Arc-enabled Kubernetes. Registration is an asynchronous process, and registration may take approximately 10 minutes.
 
   ```shell
   az provider register --namespace Microsoft.Kubernetes
