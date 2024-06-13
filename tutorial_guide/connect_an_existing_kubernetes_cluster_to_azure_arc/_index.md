@@ -124,22 +124,10 @@ The following Jumpstart Drop will guide you on how to connect an existing Kubern
   az login --service-principal --username $appId --password $password --tenant $tenantId
   ```
 
-  or:
-
-  ```shell
-  az login
-  ```
-
   If using PowerShell:
 
   ```powershell
   az login --service-principal --username $env:appId --password $env:password --tenant $env:tenantId
-  ```
-
-  or:
-
-  ```powershell
-  az login
   ```
 
 * To connect the Kubernetes cluster to Azure Arc use the below command.
