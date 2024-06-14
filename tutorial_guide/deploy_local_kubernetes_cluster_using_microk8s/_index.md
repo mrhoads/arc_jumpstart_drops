@@ -1,5 +1,7 @@
 ## Overview
 
+This Jumpstart Drop will guide you through creating a Kubernetes cluster using MicroK8s and onboarding it as an Azure Arc-enabled Kubernetes cluster.
+
 ## Prerequisites
 
 - [Install or update the latest Azure CLI ](https://learn.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest). Use the below command to check your current installed version.
