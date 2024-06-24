@@ -48,13 +48,12 @@ This Jumpstart Drop will guide you through creating a Kubernetes cluster using M
   
     Download the [MicroK8s installer for Windows](https://microk8s.io/docs/install-windows) and follow the instructions.
 
-    ![MicroK8s installer for Windows](https://global.discourse-cdn.com/business6/uploads/kubernetes/original/2X/7/748b76ed4495ee1958fd88d701b0b3c391aa8f85.png)
+    ![MicroK8s installer for Windows](./media/01_microk8s_installer.png)
 
     Once installed, enable MicroK8s with:
 
     ```shell
     microk8s status --wait-ready
-    microk8s enable dns
     ```
 
   Linux:
@@ -75,14 +74,13 @@ This Jumpstart Drop will guide you through creating a Kubernetes cluster using M
     brew install ubuntu/microk8s/microk8s
     microk8s install
     microk8s status --wait-ready
-    microk8s enable dns
     ```
 
     ![brew install microk8s](https://assets.ubuntu.com/v1/670398bd-mac1.png)
 
   WSL2:
 
-  [This blog post](https://ubuntu.com/blog/kubernetes-on-windows-with-microk8s-and-wsl-2) walks through an installation of MicroK8s in WSL 2.
+  [Refer to the MicroK8s guide](https://microk8s.io/docs/install-wsl2)) to install MicroK8s in Windows Subsystem for Linux (WSL) 2.
 
 ### Connect the cluster to Azure Arc
 
